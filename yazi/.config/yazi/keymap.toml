@@ -1,0 +1,14 @@
+[manager]
+prepend_keymap = [
+    { on = "l",        run = ["plugin smart-enter"],        desc = "Open file or enter directory" },
+    { on = "<Enter>",  run = ["plugin smart-enter"],        desc = "Open file or enter directory" },
+    { on = "f",        run = ["plugin jump-to-char"],       desc = "Jump to char" },
+    { on = "P",        run = ["plugin smart-paste"],        desc = "Paste into hovered directory" },
+    { on = "D",        run = ["plugin recycle-bin"],        desc = "Move to recycle bin" },
+    { on = "<C-s>",    run = ["plugin what-size"],          desc = "Show total size" },
+    { on = "y",        run = ["plugin system-clipboard"],   desc = "Copy to system clipboard" },
+    { on = ["c","a"],  run = ["plugin ouch"],               desc = "Compress selected files" },
+    { on = "G",        run = ["plugin git --args=status"],  desc = "Git status" },
+    { on = ".",        run = ["toggle_hidden"],             desc = "Toggle hidden files" },
+    { on = "<C-b>",    run = ["plugin full-border"],        desc = "Toggle full border" },
+]

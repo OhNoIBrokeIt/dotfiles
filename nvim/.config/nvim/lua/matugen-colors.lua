@@ -1,0 +1,15 @@
+return {
+  base = "#0b0f0f",
+  surface = "#101414",
+  surface_high = "#272b2b",
+  primary = "#4dd9e5",
+  secondary = "#b1cbce",
+  tertiary = "#b7c7ea",
+  error = "#ffb4ab",
+  on_surface = "#e0e3e3",
+  on_surface_variant = "#bec8c9",
+  outline = "#899393",
+  primary_container = "#004f55",
+  tertiary_container = "#384764",
+  secondary_container = "#324b4d",
+}

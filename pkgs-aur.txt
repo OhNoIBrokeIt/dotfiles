@@ -1,0 +1,12 @@
+ani-cli
+catppuccin-gtk-theme-mocha
+elephant-desktopapplications
+maplemono-nf
+millennium
+mpvpaper
+pyprland
+python-pywalfox
+qimgv-qt6-kde-git
+spicetify-cli
+splix
+spotify

@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(qs --version)",
+      "Bash(quickshell --version)",
+      "Bash(coredumpctl list:*)",
+      "Bash(coredumpctl debug:*)",
+      "Bash(1:*)",
+      "Bash(objdump -d /usr/bin/quickshell)",
+      "Bash(objdump -d --start-address=0x149c00 --stop-address=0x149f00 /usr/bin/quickshell)",
+      "Read(//run/user/1000/quickshell/by-id/j7vgsxoct/**)",
+      "Read(//run/user/1000/quickshell/by-id/**)",
+      "Bash(coredumpctl info:*)",
+      "Bash(objdump -d --start-address=0x149b90 --stop-address=0x149c10 /usr/bin/quickshell)",
+      "Bash(journalctl -b -g quickshell --no-pager -n 50)",
+      "Bash(xxd /run/user/1000/quickshell/by-id/j7vgsxoct/log.qslog)",
+      "Bash(journalctl -b -g \"quickshell|SIGSEGV|segfault\" --no-pager -n 200)"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+[pyprland]
+plugins = ["scratchpads"]
+
+[scratchpads.console]
+animation = "fromTop"
+command = "kitty --class console-dropdown"
+size = "75% 60%"
+max_size = "90% 100%"
+margin = 10
+
+[scratchpads.files]
+animation = "fromTop"
+command = "kitty --class files-dropdown -e yazi"
+size = "70% 65%"
+max_size = "90% 100%"
+margin = 10
+lazy = true

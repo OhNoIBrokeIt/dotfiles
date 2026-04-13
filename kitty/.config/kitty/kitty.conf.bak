@@ -1,0 +1,34 @@
+# ── Font ─────────────────────────────────────────────────
+font_family      JetBrainsMono Nerd Font
+bold_font        JetBrainsMono Nerd Font Bold
+italic_font      JetBrainsMono Nerd Font Italic
+bold_italic_font JetBrainsMono Nerd Font Bold Italic
+font_size        12.0
+disable_ligatures cursor
+
+# ── Window ───────────────────────────────────────────────
+window_padding_width    8
+background_opacity      0.92
+hide_window_decorations yes
+
+# ── Cursor ───────────────────────────────────────────────
+cursor_shape          block
+cursor_blink_interval 0
+cursor_trail          3
+cursor_trail_decay    0.1 0.4
+shell_integration     no-cursor
+
+# ── Interaction ──────────────────────────────────────────
+copy_on_select    yes
+enable_audio_bell no
+url_style         curly
+
+# ── Tabs ─────────────────────────────────────────────────
+tab_bar_style     powerline
+
+# ── Advanced ─────────────────────────────────────────────
+allow_remote_control yes
+listen_on            unix:/tmp/mykitty
+
+# ── Theme (managed by matugen) ───────────────────────────
+include themes/noctalia.conf

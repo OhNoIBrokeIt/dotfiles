@@ -1,0 +1,8 @@
+# common secrets / caches
+**/*.secret
+**/*.key
+**/*.pem
+**/credentials
+**/cache/
+**/Cache/
+**/__pycache__/
